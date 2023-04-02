@@ -45,7 +45,7 @@ class SalonFragment : BaseFragment(), SalonAdapter.SalonItemClickListener{
             }
             false
         }
-        toolbar_view_salon.toolbar.title = "Салон"
+        toolbar_view_salon.toolbar.title = "Porsche CarApp"
 
         this.adapter = SalonAdapter(this)
 //        rv_models.layoutManager = GridLayoutManager(context, 2)

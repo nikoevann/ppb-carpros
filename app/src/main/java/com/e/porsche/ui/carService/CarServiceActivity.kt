@@ -40,13 +40,13 @@ class CarServiceActivity : BaseActivity(), DatePickerDialog.OnDateSetListener, T
 
 
 
-        etv_service_name?.initBuilder(hintString = "Ім'я",
+        etv_service_name?.initBuilder(hintString = "Nama",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT)
         etv_service_name?.onFocusChanged { if(!it) {checkUsername()} }
 
 
-        etv_service_phone?.initBuilder(hintString = "Телефон",
+        etv_service_phone?.initBuilder(hintString = "Telepon",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_NUMBER)
         etv_service_phone?.onFocusChanged { if(!it) {checkPhone()} }
@@ -57,7 +57,7 @@ class CarServiceActivity : BaseActivity(), DatePickerDialog.OnDateSetListener, T
         etv_service_email?.onFocusChanged { if(!it) {checkEmail()} }
 
 
-        etv_service_car_model?.initBuilder(hintString = "Модель",
+        etv_service_car_model?.initBuilder(hintString = "Model",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT,
             focusable = false)
@@ -65,36 +65,36 @@ class CarServiceActivity : BaseActivity(), DatePickerDialog.OnDateSetListener, T
         etv_service_car_model?.onFocusChanged { if(!it) {checkModel()} }
 
 
-        etv_service_car_vin?.initBuilder(hintString = "VIN",
+        etv_service_car_vin?.initBuilder(hintString = "Datang",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT)
         etv_service_car_vin?.onFocusChanged { if(!it) {checkVin()} }
 
-        etv_service_car_mileage?.initBuilder(hintString = "Пробіг автомобіля",
+        etv_service_car_mileage?.initBuilder(hintString = "Jarak tempuh mobil",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT)
         etv_service_car_mileage?.onFocusChanged { if(!it) {checkMileage()} }
 
-        etv_service_car_plate?.initBuilder(hintString = "Державний номер",
+        etv_service_car_plate?.initBuilder(hintString = "Nomor Plat",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT)
         etv_service_car_plate?.onFocusChanged { if(!it) {checkPlate()} }
 
-        etv_service_car_diler?.initBuilder(hintString = "Дилер",
+        etv_service_car_diler?.initBuilder(hintString = "Dealer Mobil",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT,
             focusable = false)
         etv_service_car_diler?.onActionPressed { checkDiler() }
         etv_service_car_diler?.onFocusChanged { if(!it) {checkDiler()} }
 
-        etv_service_car_date?.initBuilder(hintString = "Дата передачі автомобіля",
+        etv_service_car_date?.initBuilder(hintString = "Tanggal service mobil",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT,
             focusable = false)
         etv_service_car_date?.onActionPressed { checkDate() }
         etv_service_car_date?.onFocusChanged { if(!it) {checkDate()} }
 
-        etv_service_car_time?.initBuilder(hintString = "Час передачі автомобіля",
+        etv_service_car_time?.initBuilder(hintString = "Waktu service mobil",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT,
             focusable = false)
@@ -197,7 +197,7 @@ class CarServiceActivity : BaseActivity(), DatePickerDialog.OnDateSetListener, T
     private fun dilerPressed() {
         val dilers = CarsUtil.dilers
         AlertDialog.Builder(this)
-            .setTitle("Дилер")
+            .setTitle("Dealer")
             .setItems(dilers) {dialog, which ->
                 etv_service_car_diler.text = dilers[which]
                 dialog.dismiss()
@@ -213,7 +213,7 @@ class CarServiceActivity : BaseActivity(), DatePickerDialog.OnDateSetListener, T
         }
 
         AlertDialog.Builder(this)
-            .setTitle("Дилер")
+            .setTitle("Dealer")
             .setItems(carsString.toTypedArray()) {dialog, which ->
                 selectedCar = myCars[which]
 

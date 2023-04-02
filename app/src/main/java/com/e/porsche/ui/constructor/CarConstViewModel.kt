@@ -20,66 +20,66 @@ class CarConstViewModel: ViewModel() {
 
         val sett: ArrayList<ConstCar> = arrayListOf(
 
-            ConstColors(mainTitle = "Екстер'єр", title = "Колір екстер'єру", colors = arrayListOf(
+            ConstColors(mainTitle = "Bagian luar", title = "Warna eksterior", colors = arrayListOf(
                 SubColors(CarsUtil.ConstructorColorsType.BASIC.value, CarsUtil.constructorColors[0], CarsUtil.constructorColors[1], CarsUtil.constructorColors[2], CarsUtil.constructorColors[3]),
                 SubColors(CarsUtil.ConstructorColorsType.METALLIC.value, CarsUtil.constructorColors[4], CarsUtil.constructorColors[5], CarsUtil.constructorColors[6], CarsUtil.constructorColors[7]),
                 SubColors(CarsUtil.ConstructorColorsType.SPECIAL.value, CarsUtil.constructorColors[8], CarsUtil.constructorColors[9], CarsUtil.constructorColors[10], CarsUtil.constructorColors[11])
             )),
 
-            ConstSett(title = "Аксесуари для коліс", subsett = arrayListOf(
-                ConstSubSett("Колеса пофарбовані в колір кузова", "40 000.00 UAH"),
-                ConstSubSett("Колеса пофарбовані в чорний колір", "40 000.00 UAH"),
-                ConstSubSett("Колеса пофарбовані в чорний матовий колір", "40 000.00 UAH"),
-                ConstSubSett("Колеса пофарбовані в сірий колір", "30 000.00 UAH"),
-                ConstSubSett("Центри коліс з кольоровим логотипом", "30 000.00 UAH"),
-                ConstSubSett("Колеса пофарбовані в чорний колір", "6 000.00 UAH")
+            ConstSett(title = "Aksesoris ban", subsett = arrayListOf(
+                ConstSubSett("Roda dicat dengan warna bodi", "40 000.000"),
+                ConstSubSett("Roda dicat hitam", "40 000.000"),
+                ConstSubSett("Roda dicat hitam matte", "40 000.000"),
+                ConstSubSett("Roda dicat abu-abu", "30 000.000"),
+                ConstSubSett("Pusat roda dengan logo warna", "30 000.000"),
+                ConstSubSett("Roda dicat hitam", "6 000.000")
             )),
 
 
-            ConstSett(mainTitle = "Інтер'єр", title = "Декоративна строчка та центри сидінь", subsett = arrayListOf(
-                ConstSubSett("Центральна частина сидінь оздобленна шкірою контрастного кольору", "16 000.00 UAH"),
-                ConstSubSett("Пакет оздоблення салону декоративною строчкою контрастного кольору", "68 000.00 UAH"),
-                ConstSubSett("Розширений пакет оздоблення салону декоративною строчкою контрастного кольору ", "87 000.00 UAH"),
-                ConstSubSett("Оздоблення шкірою рульового колеса з декоративною строчкою контрастного кольору", "15 000.00 UAH"),
-                ConstSubSett("Внутрішні дверні пороги з оздобленням шкіри та декоративної строчки контрастного кольору", "20 000.00 UAH"),
-                ConstSubSett("Шкіряні спинки спортивних сидіннь Plus, з декоративною строчкою", "49 000.00 UAH")
+            ConstSett(mainTitle = "Interior", title = "Jahitan interior kursi", subsett = arrayListOf(
+                ConstSubSett("Bagian tengah jok didekorasi dengan kulit dengan warna kontras", "16 000.000"),
+                ConstSubSett("Paket dekorasi interior dengan jahitan dekoratif dengan warna kontras", "68 000.000"),
+                ConstSubSett("Paket dekorasi interior yang diperluas dengan jahitan dekoratif dengan warna kontras ", "87 000.000"),
+                ConstSubSett("Trim kulit pada setir dengan jahitan dekoratif dengan warna kontras", "15 000.000"),
+                ConstSubSett("Kusen pintu interior dengan trim kulit dan jahitan dekoratif dengan warna kontras", "20 000.000"),
+                ConstSubSett("Punggung kulit jok sport Plus, dengan jahitan dekoratif", "49 000.000")
             )),
 
-            ConstSett(mainTitle = "Опції", title = "Декоративна строчка та центри сидінь", subsett = arrayListOf(
-                ConstSubSett("Логотип \"718\"", "0.00 UAH"),
-                ConstSubSett("Відсутність напису з назвою моделі, на кузові автомобіля", "0.00 UAH"),
-                ConstSubSett("Логотип \"718\" (пофарбований)", "5 000.00 UAH"),
-                ConstSubSett("Назва моделі (пофарбована)", "8 000.00 UAH"),
-                ConstSubSett("Позначення моделі на дверях чорного кольору", "7 000.00 UAH"),
-                ConstSubSett("Позначення моделі на дверях сріблястого кольору", "7 000.00 UAH"),
-                ConstSubSett("Бічні віконні планки та трикутні накладки на стекла, чорного кольору ", "16 000.00 UAH"),
-                ConstSubSett("Пакет оздоблення екстер'єру SportDesign", "83 000.00 UAH")
+            ConstSett(mainTitle = "Pilihan", title = "Jahitan interior kursi", subsett = arrayListOf(
+                ConstSubSett("Logo \"718\"", "0.00"),
+                ConstSubSett("Tidak adanya tulisan dengan nama model di badan mobil", "0.00 UAH"),
+                ConstSubSett("Logo \"718\" (berwarna)", "5 000.000"),
+                ConstSubSett("Nama model (dilukis)", "8 000.000"),
+                ConstSubSett("Penunjukan model pada pintu berwarna hitam", "7 000.000"),
+                ConstSubSett("Penunjukan model pada pintu berwarna perak", "7 000.000"),
+                ConstSubSett("Bilah jendela samping dan overlay segitiga pada kaca, hitam ", "16 000.000"),
+                ConstSubSett("Paket dekorasi eksterior SportDesign", "83 000.000")
             )),
 
 
-            ConstSett(title = "Трансмісія / Шасі", subsett = arrayListOf(
-                ConstSubSett("6-ступенева МКПП", "0.00 UAH"),
-                ConstSubSett("Автоматична коробка перемикання передач Porsche (PDK)", "94 000.00 UAH"),
-                ConstSubSett("Спортивна підвіска PASM (заниження дорожнього просвіту на 10 мм)", "48 000.00 UAH"),
-                ConstSubSett("Система регулювання крутного моменту Porsche (PTV), з механічним блокуванням заднього диференціала", "44 000.00 UAH"),
-                ConstSubSett("Пакет Sport Chrono", "60 000.00 UAH"),
-                ConstSubSett("Спортивні вихлопні труби в срібному кольорі", "18 000.00 UAH"),
-                ConstSubSett("Спортивні вихлопні труби в чорному кольорі ", "18 000.00 UAH"),
-                ConstSubSett("Паливний бак 64 л", "4 000.00 UAH"),
-                ConstSubSett("Керамічні композитні гальма Porsche (PCCB)", "243 000.00 UAH"),
-                ConstSubSett("Підсилювач керма Plus", "9 000.00 UAH")
+            ConstSett(title = "Transmisi / Sasis", subsett = arrayListOf(
+                ConstSubSett("Transmisi manual 6 percepatan", "0.00"),
+                ConstSubSett("Gearbox otomatis Porsche (PDK)", "94 000.000"),
+                ConstSubSett("Suspensi sport PASM (menurunkan ground clearance hingga 10 mm)", "48 000.000"),
+                ConstSubSett("Sistem kontrol torsi Porsche (PTV), dengan penguncian mekanis diferensial belakang", "44 000.000"),
+                ConstSubSett("Paket Olahraga Chrono", "60 000.000"),
+                ConstSubSett("Pipa knalpot sport dalam warna perak", "18 000.000"),
+                ConstSubSett("Pipa knalpot sport berwarna hitam ", "18 000.000"),
+                ConstSubSett("Tangki bahan bakar 64 l", "4 000.000"),
+                ConstSubSett("Rem Komposit Keramik Porsche (PCCB)", "243 000.000"),
+                ConstSubSett("Power steering Plus", "9 000.000")
             )),
 
-            ConstSett(title = "Система освітлення", subsett = arrayListOf(
-                ConstSubSett("Бі-ксенонові фари, включаючи систему динамічного освітлення (Porsche Dynamic Light System - PDLS)", "29 000.00 UAH"),
-                ConstSubSett("Тоновані задні ліхтарі", "16 000.00 UAH"),
-                ConstSubSett("Пакет освітлення Light design", "10 000.00 UAH")
+            ConstSett(title = "Sistem pencahayaan", subsett = arrayListOf(
+                ConstSubSett("Lampu depan bi-xenon, termasuk sistem pencahayaan dinamis (Porsche Dynamic Light System - PDLS)", "29 000.000"),
+                ConstSubSett("Lampu belakang berwarna", "16 000.000"),
+                ConstSubSett("Paket pencahayaan desain ringan", "10 000.000")
             )),
 
-            ConstSett(mainTitle = "Аксесуари tequipment",title = "Колеса та аксесуари", subsett = arrayListOf(
-                ConstSubSett("Декоративні ковпачки на колісні ніпелі (чорного кольору з кольоровим гербом Porsche)", "2 306.00 UAH"),
-                ConstSubSett("Декоративні ковпачки на колісні вентилі (сріблястого кольору з кольоровим гербом Porsche)", "2 306.00 UAH"),
-                ConstSubSett("Декоративні ковпачки на колісні вентилі (сріблястого кольору з одноколірним гербом Porsche)", "2 306.00 UAH")
+            ConstSett(mainTitle = "Aksesori peralatan",title = "Roda dan aksesori", subsett = arrayListOf(
+                ConstSubSett("Tutup dekoratif untuk pentil roda (hitam dengan lambang Porsche berwarna)", "2 306.000"),
+                ConstSubSett("Tutup katup roda dekoratif (warna perak dengan lambang Porsche berwarna)", "2 306.000"),
+                ConstSubSett("Tutup katup roda dekoratif (warna perak dengan lambang Porsche satu warna)", "2 306.000")
             ))
         )
 

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Porsche</string>
+    <string name="title_salon">Porsche</string>
+    <string name="title_accessories">Aksesoris</string>
+    <string name="title_account">Kantor</string>
+
+
+    <string name="fuel_subtitle">0-100Km</string>
+    <string name="co2_subtitle">Km</string>
+    <string name="zh_subtitle">Akselerasi dari 0 - 100 km/jam</string>
+    <string name="wd_subtitle"></string>
+    <string name="hp_subtitle">Horsepower</string>
+    <string name="price_subtitle">Biaya</string>
+    <string name="speed_subtitle">Kecepatan Maksimal</string>
+
+    <string name="add">Tambah</string>
+    <string name="cancel">Batal</string>
+    <string name="dialog_camera">Kamera</string>
+    <string name="dialog_galary">Galeri</string>
+    <string name="dialog_remove">Hapus</string>
+    <string name="ok">Ok</string>
+    <string name="sign_up">Daftar</string>
+
+
+    <string name="required_camera_permission">Application needs permission to access your camera</string>
+    <string name="required_location_permission">Application needs permission to get your location</string>
+    <string name="required_write_to_storage_permission">Application needs permission to write at disc</string>
+    <string name="reject_permission">Never show</string>
+    <string name="permission_required">Requires permission</string>
+
+    <string name="const_1">1. Eksterior</string>
+    <string name="const_2">2. Interior</string>
+    <string name="const_3">3. Opsi</string>
+    <string name="const_4">4. Aksesoris</string>
+    <string name="const_5">5. Ringkasan</string>
+
+    <string name="ad_const_1">Eksterior</string>
+    <string name="ad_const_2">Interior</string>
+    <string name="ad_const_3">Opsi</string>
+    <string name="ad_const_4">Аksesoris</string>
+    <string name="ad_const_5">Ringkasan</string>
+
+</resources>

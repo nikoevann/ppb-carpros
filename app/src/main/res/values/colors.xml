@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+
+    <color name="colorPrimary">#1F2129</color>
+    <color name="colorPrimaryDark">#42424A</color>
+    <color name="colorAccent">#085E9E</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+<!--    <color name="blue">#4D4DDB</color>-->
+    <color name="gray_indicator">#A3A3A3</color>
+
+    <color name="dark">#1F2129</color>
+    <color name="gray">#42424A</color>
+    <color name="blue">#085E9E</color>
+    <color name="gray_lighter">#424D54</color>
+    <color name="gray_light">#8E9194</color>
+    <color name="gray_dark">#14171C</color>
+    <color name="gray_darkAlpha">#B314171C</color>
+    <color name="red">#EC1717</color>
+
+
+    <color name="spec_red">#990033</color>
+    <color name="spec_grey">#C7C7BF</color>
+    <color name="spec_orange">#D7361C</color>
+    <color name="spec_blue">#00788A</color>
+
+    <color name="basic_white">#EFEFEF</color>
+    <color name="basic_black">#000000</color>
+    <color name="basic_red">#CC0033</color>
+    <color name="basic_yellow">#FFCC00</color>
+
+    <color name="met_white">#EFF5F9</color>
+    <color name="met_black">#000000</color>
+    <color name="met_blue">#1D2738</color>
+    <color name="met_grey">#333333</color>
+
+
+
+</resources>

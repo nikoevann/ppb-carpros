@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.e.porsche.views.SquaredImageView
+        android:id="@+id/siv_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/spec_blue"
+        android:layout_centerInParent="true"/>
+
+    <com.e.porsche.views.edit_image_view.EditImageView
+        android:id="@+id/eiv_checkmark"
+        android:visibility="gone"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/siv_color"
+        android:layout_alignBottom="@+id/siv_color"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+</RelativeLayout>

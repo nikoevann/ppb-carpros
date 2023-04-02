@@ -12,7 +12,7 @@ object FieldsValidatorUtil{
 
     fun isEmpty(value: String, context: Context): String? {
         return if(value.isEmpty() || value.isBlank()){
-            "Поле пусте"
+            "Kosong"
         }else null
     }
 
@@ -20,7 +20,7 @@ object FieldsValidatorUtil{
         return if(value != null){
             isEmpty(value, context)
         }else{
-            "Поле пусте"
+            "Kosong"
         }
     }
 
@@ -31,7 +31,7 @@ object FieldsValidatorUtil{
 //            } else { getErrorMinLength(context, USERNAME_MIN_LENGTH) }
             null
         }else{
-            "Поле пусте"
+            "Kosong"
         }
     }
 
@@ -39,7 +39,7 @@ object FieldsValidatorUtil{
         return if(value != null){
             return isEmpty(value, context)
         }else{
-            "Поштова адреса погано введена"
+            "Alamat pos yang dimasukkan salah"
         }
     }
 
@@ -47,7 +47,7 @@ object FieldsValidatorUtil{
         return if(value != null){
             return isEmpty(value, context)
         }else{
-            "Пароль не відповідає вимогам"
+            "Kata sandi tidak memenuhi persyaratan"
         }
     }
 

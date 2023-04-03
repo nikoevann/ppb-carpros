@@ -24,7 +24,7 @@ class MyCarsActivity : BaseActivity() {
         rb_my_cars.setOnClickListener {radioPressed() }
         rb_create_create.setOnClickListener { radioPressed() }
 
-        etv_my_car_model?.initBuilder(hintString = "Модель",
+        etv_my_car_model?.initBuilder(hintString = "Model",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT)
         etv_my_car_model?.onFocusChanged { if(!it) { checkModel() } }
@@ -35,7 +35,7 @@ class MyCarsActivity : BaseActivity() {
         etv_my_car_vin?.onFocusChanged { if(!it) { checkVin() } }
 
 
-        etv_my_car_plate?.initBuilder(hintString = "Державний номер",
+        etv_my_car_plate?.initBuilder(hintString = "Nomor plat",
             colorRes = R.color.gray,
             inputType = InputType.TYPE_CLASS_TEXT)
         etv_my_car_plate?.onFocusChanged { if(!it) { checkPlate() } }

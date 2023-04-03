@@ -27,7 +27,7 @@ class SignInActivity : BaseActivity() {
         btn_sign_in.setOnClickListener { signInPressed() }
         bt_forgot_pass.setOnClickListener { forgotPassPressed() }
 
-        etv_sign_in_email.initBuilder(hintString = "Поштова адреса",
+        etv_sign_in_email.initBuilder(hintString = "Email",
             colorRes = R.color.gray,
             dimenRes = R.dimen.edit_text_view_radius,
             inputType = InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS,
@@ -35,7 +35,7 @@ class SignInActivity : BaseActivity() {
         etv_sign_in_email?.onFocusChanged { hasFocus -> if(!hasFocus) checkEmail() }
         etv_sign_in_email?.onActionPressed { checkEmail() }
 
-        etv_sign_in_password.initBuilder(hintString = "Пароль",
+        etv_sign_in_password.initBuilder(hintString = "Kata sandi",
             colorRes = R.color.gray,
             dimenRes = R.dimen.edit_text_view_radius,
             inputType = InputType.TYPE_TEXT_VARIATION_PASSWORD,

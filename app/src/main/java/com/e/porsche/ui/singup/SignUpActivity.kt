@@ -55,7 +55,7 @@ class SignUpActivity : BaseActivity() {
             }
         })
 
-        etv_sign_up_name.initBuilder(hintString = "Iм'я",
+        etv_sign_up_name.initBuilder(hintString = "Nama",
             colorRes = R.color.gray,
             dimenRes = R.dimen.edit_text_view_radius,
             inputType = InputType.TYPE_CLASS_TEXT,
@@ -63,7 +63,7 @@ class SignUpActivity : BaseActivity() {
         etv_sign_up_name?.onFocusChanged { hasFocus -> if(!hasFocus) checkUserName() }
         etv_sign_up_name?.onActionPressed { checkUserName() }
 
-        etv_sign_up_email.initBuilder(hintString = "Поштова адреса",
+        etv_sign_up_email.initBuilder(hintString = "Email",
             colorRes = R.color.gray,
             dimenRes = R.dimen.edit_text_view_radius,
             inputType = InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS,
@@ -71,7 +71,7 @@ class SignUpActivity : BaseActivity() {
         etv_sign_up_email?.onFocusChanged { hasFocus -> if(!hasFocus) checkEmail() }
         etv_sign_up_email?.onActionPressed { checkEmail() }
 
-        etv_sign_up_password.initBuilder(hintString = "Пароль",
+        etv_sign_up_password.initBuilder(hintString = "Password",
             colorRes = R.color.gray,
             dimenRes = R.dimen.edit_text_view_radius,
             inputType = InputType.TYPE_TEXT_VARIATION_PASSWORD,

@@ -62,7 +62,7 @@ object CarsUtil {
     val dilers = arrayOf(
         "Central Porsche",
         "Porsche Menteng",
-        "Porsche Tembalang",
+        "Porsche Sudirman",
         "Porsche Alam Sutra",
         "Porsche Gunawarman"
     )
@@ -104,32 +104,32 @@ object CarsUtil {
     )
 
     enum class ConstructorColorsType(val value: String) {
-        BASIC("Стандартний колір"),
-        METALLIC("Металізована емаль"),
-        SPECIAL("Спеціальний колір"),
+        BASIC("Basic"),
+        METALLIC("Metalic"),
+        SPECIAL("Special"),
     }
 
     interface ColorType {}
 
     enum class BasicColors(val value: String) : ColorType{
-        WHITE("Білий (White)"),
-        BLACK("Чорний (Black)"),
-        RED("Яскраво-червоний (Guard Red)"),
-        YELLOW("Жовтий (Racing Yellow)")
+        WHITE("Putih"),
+        BLACK("Hitam"),
+        RED("Merah"),
+        YELLOW("Kuning")
     }
 
     enum class MetallicColors(val value: String) : ColorType {
-        WHITE("Білий (Carrara White Metallic)"),
-        BLACK("Чорний (Jet Black Metallic)"),
-        BLUE("Темно-синій (Night Blue Metallic)"),
-        GREY("Сірий (Agate Grey Metallic)")
+        WHITE("Carrara White Metallic"),
+        BLACK("Jet Black Metallic"),
+        BLUE("Night Blue Metallic"),
+        GREY("Agate Grey Metallic")
     }
 
     enum class SpecialColors(val value: String) : ColorType {
-        RED("Яскраво-червоний (Carmine Red)"),
-        GREY("Світло-сірий (Grayon)"),
-        ORANGE("Помаранчевий (Lava Orange)"),
-        BLUE("Блакитний (Miami Blue)")
+        RED("Carmine Red"),
+        GREY("Grayon"),
+        ORANGE("Lava Orange"),
+        BLUE("Miami Blue")
     }
 
 

@@ -32,7 +32,7 @@ class AccessoriesFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        toolbar_view_accessories.toolbar.title = "Аксесуари"
+        toolbar_view_accessories.toolbar.title = "Aksesoris"
 
         adapter = AccessoriesAdapter()
         rv_access.layoutManager = LinearLayoutManager(contextMain)

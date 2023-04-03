@@ -39,7 +39,7 @@ class AccountFragment : BaseFragment() {
 
         eiv_profile_image.setSmallView()
 
-        toolbar_view_account.toolbar.title = "Мій кабінет"
+        toolbar_view_account.toolbar.title = "Kantor"
 
         UserManager.currentUser?.let {
             eiv_profile_image.loadImage(it.getImageBitmap())
@@ -52,23 +52,23 @@ class AccountFragment : BaseFragment() {
             activity?.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left)
         }
         inc_setting_1.iv_setting_icon.setImageDrawable(ContextCompat.getDrawable(contextMain, R.drawable.ic_my_cars))
-        inc_setting_1.tv_setting_title.text = "Мої авто"
+        inc_setting_1.tv_setting_title.text = "Koleksi Mobil"
 
         inc_setting_2.setOnClickListener {
             startActivity(Intent(context, CarServiceActivity::class.java))
             activity?.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left)
         }
         inc_setting_2.iv_setting_icon.setImageDrawable(ContextCompat.getDrawable(contextMain, R.drawable.ic_service))
-        inc_setting_2.tv_setting_title.text = "Сервіс"
+        inc_setting_2.tv_setting_title.text = "Layanan"
 
         btn_logout.setOnClickListener {
             UserManager.removeCurrentUser()
             (activity as MainActivity).logoutPressed()}
 
         btn_logout.setOnLongClickListener {
-            val arr = arrayOf("Вийти", "Видалити всі дані")
+            val arr = arrayOf("Keluar", "Hapus semua data")
             AlertDialog.Builder(contextMain)
-                .setTitle("Вихід")
+                .setTitle("Masuk")
                 .setItems(arr) {dialog, which ->
                     when(which) {
                         0 -> { btn_logout.performClick() }
